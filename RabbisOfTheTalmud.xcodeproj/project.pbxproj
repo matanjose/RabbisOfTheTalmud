@@ -12,6 +12,7 @@
 		8243CFAE1F69C07300AA1217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8243CFAC1F69C07300AA1217 /* Main.storyboard */; };
 		8243CFB01F69C07300AA1217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8243CFAF1F69C07300AA1217 /* Assets.xcassets */; };
 		8243CFB31F69C07300AA1217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8243CFB11F69C07300AA1217 /* LaunchScreen.storyboard */; };
+		8243CFBB1F69C12300AA1217 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243CFBA1F69C12300AA1217 /* Database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8243CFAF1F69C07300AA1217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8243CFB21F69C07300AA1217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8243CFB41F69C07300AA1217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8243CFBA1F69C12300AA1217 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Database.swift; path = ../Database.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8243CFAF1F69C07300AA1217 /* Assets.xcassets */,
 				8243CFB11F69C07300AA1217 /* LaunchScreen.storyboard */,
 				8243CFB41F69C07300AA1217 /* Info.plist */,
+				8243CFBA1F69C12300AA1217 /* Database.swift */,
 			);
 			path = RabbisOfTheTalmud;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8243CFBB1F69C12300AA1217 /* Database.swift in Sources */,
 				8243CFAB1F69C07300AA1217 /* ViewController.swift in Sources */,
 				8243CFA91F69C07300AA1217 /* AppDelegate.swift in Sources */,
 			);
